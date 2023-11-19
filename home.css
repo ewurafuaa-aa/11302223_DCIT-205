@@ -14,9 +14,10 @@
     
     img {
         position: relative;
-        width: 35%; 
+        width: 70%; 
         height: auto;
-        margin: 40px;
+        margin: 179px;
+        filter: brightness(1) contrast(0.8) saturate(5);
         padding: 0;
     }
 
@@ -64,7 +65,7 @@
     }
     .base_button {
         bottom: 0%;
-        background-color: rgb(26, 42, 80);
+        background-color: rgb(27, 54, 116);
         color: white;
         padding: 10px;
         font-size: 50px;

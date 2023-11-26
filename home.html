@@ -3,181 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>UG | Department Of Computer Science</title>
-    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-   <header> 
-    <a href="home.html">
-        <!--Make the logo clickable by linking to the homepage or appropriate URL-->
-        <img src="assets/comScience_logo.png" alt="DCS Logo">
-    </a>
-    <div class="social-media">
-        <a class="social-link" href="#">
-            <img src="assets/social/fbk.png" alt="Facebook">
+
+    <header>
+        <a href="index.html"> 
+            <img src="assets/comScience_logo.png" alt="DCS Logo"> 
         </a>
-        <a class="social-link" href="#">
-            <img src="assets/social/ig.png" alt="Instagram">
-        </a>
-        <a class="social-link" href="#">
-            <img src="assets/social/x.png" alt="Twitter">
-        </a>
-    </div>
-    </header>
-    <div class="menu-icon"></div><!--figure out button here-->
-    <nav class="nav-menu">
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Faculty</a>
-            </li>
-            <li>
-                <a href="#">Events</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="slider-container">
-        <div class="slider" style="transform: translateX(0%); transition: transform 0.5s ease-in-out 0s;">
-            <img src="assets/three_students.png" alt="">
-            <img src="assets/students.png" alt="">
+        
+        <div class="social-media">
+            <a href="#" class="social-link"><img src="assets/social/fbk.png" alt="Facebook"></a>
+            <a href="#" class="social-link"><img src="assets/social/x.png" alt="Twitter"></a>
+            <a href="#" class="social-link"><img src="assets/social/ig.png" alt="Instagram"></a>
         </div>
-        <button class="prev"></button><!--figure out button here-->
-        <button class="next"></button>
+    </header>
+
+    <div class="menu-icon">&#9776;</div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="#">Events</a></li>
+            </ul>
+        </nav>
+    <div class="slider-container">
+        <div class="slider">
+            <img src="assets/comp_aes.jpg" alt="">
+            <img src="assets/comp_aes1.jpg" alt="">
+            <img src="assets/comp_aes2.jpg" alt="">
+        </div>
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
     </div>
+
     <main>
+
         <section class="admissions-card-section">
-            <!--Existing cards-->
+            <!-- Existing cards -->
+            
             <div class="card admissions-card">
                 <div class="card-image">
-                    <img src="assets/undergrad.png" alt="Admissions Card Image">
+                    <img src="assets/undergrad.jpeg" alt="Admissions Card Image">
                 </div>
                 <div class="card-content">
                     <h2>Undergraduate Programmes</h2>
-                    <p>
-                        Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science degree. 
-                    </p>
+                    <p>Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science degree..</p>
                 </div>
             </div>
+
+            
         </section>
+
         <section class="admissions-card-section">
-             <!--Existing cards-->
-             <div class="card admissions-card">
+            <!-- Existing cards -->
+            
+            <div class="card admissions-card">
                 <div class="card-image">
-                    <img src="assets/grad.png" alt="Admissions Card Image">
+                    <img src="assets/grad.jpg" alt="Admissions Card Image">
                 </div>
-             <div class="card-content">
-                <h2>Graduate Programmes</h2>
-                <p>
-                    Embrace world-class graduate education with a unique blend of cutting edge research and industry experience.
-                </p>
-             </div>
+                <div class="card-content">
+                    <h2>Graduate Programmes</h2>
+                    <p>Embrace world class gradate education with unique blend of cutting-edge research and industry experience.</p>
+                </div>
+            </div>
+            
+        </section>
+        
+        
+
+        <h2 class="certprog">Certificate Courses</h2>
+
+        <section class="card-section">
+    
+            <div class="card">
+                <a href="webdev.html"><img src="assets/webdev.jpeg" alt="Card Image 1"></a>
+                <a href="webdev.html"><h2>Introduction to Web Development</h2></a>
+                <p>Understand the fundamentals of web technologies and create web-based applications with latest technologies.</p>
+            </div>
+            <div class="card">
+                <a href="cybersec.html"><img src="assets/hacking.jpeg" alt="Card Image 2"></a>
+                <a href="cybersec.html"><h2>Cyber Security & Ethical Hacking</h2></a>
+                <>Learn the various techniques used to secure a computer system from attacks through hacking.</p>
+            </div>
+            <div class="card">
+                <a href="algorithm.html"><img src="assets/algo_data.jpeg" alt="Card Image 3"></a>
+                <a href="algorithm.html"><h2>Introduction to Algorithms and Data Structures</h2></a>
+                <p>Start with a warm welcome to the program by refreshing your Python skills and learning about problem solving and efficiency.</p>
             </div>
         </section>
-        <h2 class="certprog">Certificate Courses</h2>
-        < class="card-section">
-            <div class="card">
-                <a href="#">
-                    <img src="assets/webdev.png" alt="card image 1">
-                </a>
-                <a href="#">
-                    <h2>Introduction To Web Development</h2>
-                    </a>
-                    <p>
-                        Understand the fundamentals of web technologies and create web based applications with latest technologies.
-                    </p>
-                </div>
-               <div class="card">
-                <a href="#">
-                    <img src="assets/hacking.png" alt="card image 2">
-                </a>
-                <a href="#">
-                    <h2>Cyber Security and Ethical Hacking</h2>
-                    </a>
-                    <p>
-                        Learn the various techniques used to secure a computer system from attacks through hacking.
-                    </p>
-                </div>
-                <div class="card">
-                <a href="#">
-                    <img src="assets/algo_data.png" alt="card image 3">
-                </a>
-                <a href="#">
-                    <h2>Introduction To Algorithms and Data Structures</h2>
-                    </a>
-                    <p>
-                        Start with a warm welcome to the program by refreshing your Python skills and learning about problem solving and efficiency.
-                    </p>
-                </div>
+
+        <h2 class="certprog">Upcoming Events</h2>
+        <section class="event-card">
+            <div class="event-image">
+                <img src="assets/android.jpg" alt="Event Image">
+            </div>
+            <div class="event-details">
+                <h2>Android Compose Camp</h2>
+                <p>Date: December 15, 2023</p>
+                <p>Time: 10:00 AM - 12:00 PM</p>
+                <p>Location: GCB</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
         </section>
-        <section id="teachers" class="hidden">
-            <h2>Meet Our Teachers</h2>
-            <ul>
-                <li>Mark Atta - Software Engineering</li>
-                <li>Dwumfour Abdullai Abdul-Aziz - Digital And Logic System Design</li>
-                <li>Samuel Winful - Computer Architecture</li>
-                <li>Soli Tetteh - Multimedia and Web Design</li>
-            </ul>
-        </section>
-        <section id="Contact" class="hidden">
+        
+
+        <section id="contact" class="hidden">
             <h2>Contact Us</h2>
-            <p>Email: ugcomputersciencedepartment@ug.edu.gh</p>
-            <p>Phone: 0544536728/0303982782</p>
+            <p>Email: dcs@ug.edu.gh</p>
+            <p>Phone: 0302276278/0276276778</p>
         </section>
     </main>
-    <footer>
-        <footer>
-            <div class="footer-columns">
-                <div class="footer-column">
-                    <h3>About Department</h3>
-                    <ul>
-                        <li>
-                            <a href="#">Mission</a>
-                        </li>
-                        <li>
-                            <a href="#">Vision</a>
-                        </li>
-                        <li>
-                            <a href="#">History</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Academics</h3>
-                    <ul>
-                        <li>
-                            <a href="#">Courses</a>
-                        </li>
-                        <li>
-                            <a href="#">Programmes</a>
-                        </li>
-                        <li>
-                            <a href="#">Research</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Admission</h3>
-                    <ul>
-                        <li>
-                            <a href="#">Application</a>
-                        </li>
-                        <li>
-                            <a href="#">Requirements</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact Admissions</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-        <p>© 2023 Department of Computer Science. All Rights Reserved</p>
+
+
+<footer>
+
+    <div class="footer-columns">
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>Phone: +233 559 145 698</p>
+            <p>Phone: +233 501 382 035</p>
+            <p>Email: dcs@ug.edu.gh</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Academics</h3>
+            <ul>
+                <li><a href="#">Undergraduate Courses</a></li>
+                <li><a href="#">Graduate Courses</a></li>
+                <li><a href="#">Academic Calendar</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Admission</h3>
+            <ul>
+                <li><a href="#">Application Process</a></li>
+                <li><a href="#">Requirements</a></li>
+                <li><a href="#">Contact Admissions</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+        <p class="footer-copy">&copy; 2023 School Department. All rights reserved.</p>
     </footer>
+
     <script src="scripts/main.js"></script>
     <script src="scripts/slider.js"></script>
 </body>

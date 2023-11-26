@@ -12,7 +12,7 @@ header {
     padding: 0.5em 10em 0;
     display: flex;
     align-items: center;
-    space-between !important
+    
     border-bottom: solid 2px #1b2c57 !important;
   }
 
@@ -80,6 +80,8 @@ header h1 {
     text-decoration: none;
     color: #fff;
 }
+
+
 
 @media (max-width: 768px) {
     header {
@@ -200,7 +202,9 @@ footer {
 .footer-columns {
     display: flex;
     justify-content: space-around;
-}
+    width: 70%;
+    margin: 0 auto;
+  }
 
 .footer-column {
     width: 30%; /* Adjust the width as needed */
@@ -223,7 +227,24 @@ footer {
 .footer-column a {
     text-decoration: none;
     color: #fff;
+    line-height: 1.7em;
 }
+
+.footer-copy {
+    width: 70%;
+    margin: 0 auto;
+    border-top: solid 1px #ccc;
+    padding: 10px 0;
+    color: #b5975d !important;
+  }
+
+  .footer-column h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #b5975d;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
 
 .home{
     padding-bottom: 20%;
@@ -294,7 +315,7 @@ footer {
     justify-content: space-around;
     margin: 0 auto;
     width: 70%;
-    padding: 0 0 10% 0;
+    padding: 0 0 5% 0;
 }
 
 .admissions-card-section {
@@ -403,3 +424,336 @@ footer {
         display: none !important;
       }
 }
+
+/*Events Card*/
+
+.event-card {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 0 5% 0;
+  }
+
+.event-image {
+    flex: 40%;
+}
+
+.event-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 0 0 8px;
+}
+
+.event-details {
+    flex: 60%;
+    padding: 0 0 0 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-details h2 {
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    margin-bottom: 8px;
+}
+
+.event-details .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #1b2c57;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+
+  .event-details .btn:hover{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #b5975d;
+    color: #1b2c57;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+
+@media (max-width: 768px) {
+    .event-card {
+        flex-direction: column; /* Arrange event card vertically */
+    }
+
+    .event-image,
+    .event-details {
+        flex: 100%; /* Full width for both in mobile mode */
+    }
+}
+
+/* Accordion */
+.accordion-section {
+    margin-top: 20px;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.accordion-item button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.accordion-item button:hover {
+    background-color: #ddd;
+}
+
+.accordion-item .panel {
+    display: none;
+    padding: 10px;
+}
+
+.accordion-item.active .panel {
+    display: block;
+}
+
+.about-page{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px !important;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .about-page{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+.breadcrumb {
+    background-color: #f2f2f2;
+    padding: 10px 15%;
+    margin-bottom: 20px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb img {
+    width: 100%;
+    max-height: 200px; /* Adjust the maximum height as needed */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* About Page Content Card */
+.about-content-card {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.about-content-card img {
+    width: 50%;
+    max-height: 300px; /* Adjust the maximum height as needed */
+    object-fit: cover;
+}
+
+.about-content-card-text {
+    flex: 1;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+}
+
+.about-content-card-text h2 {
+    margin-bottom: 10px;
+}
+
+.about-content-card-text p {
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+/**/
+
+.about-content-card-2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.about-content-card-2 img {
+    width: 50%;
+    max-height: 300px; /* Adjust the maximum height as needed */
+    object-fit: cover;
+}
+
+.about-content-card-2-text {
+    flex: 1;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+}
+
+.about-content-card-2-text h2 {
+    margin-bottom: 10px;
+}
+
+.about-content-card-2-text p {
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+/**/
+
+@media (max-width: 768px) {
+    .about-content-card {
+        flex-direction: column;
+    }
+
+    .about-content-card img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-content-card-2 {
+        flex-direction: column-reverse;
+    }
+
+    .about-content-card-2 img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+}
+
+/* Faculty Page */
+.faculty-member {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.faculty-member img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.faculty-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.faculty-member {
+    flex-basis: calc(25% - 20px);
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.faculty-member img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .faculty-member {
+        flex-basis: calc(90%);
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 8px;
+    }
+}
+
+/* Faculty Page Ends */
+
+/* Faculty Member Profile Page */
+.faculty-profile {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.faculty-profile img {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.faculty-details {
+    width: 45%;
+    padding: 0 20px;
+
+}
+
+.faculty-biography {
+    padding: 20px;
+    background: #ddd;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.biotxt {
+    font-size: 20px;
+    line-height: 30px;
+  
+  }
+/* Faculty Member Profile Page Ends */
+
+/* Certificate Course Profile Page */
+.course-profile {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.course-profile img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.course-details {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.course-description {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+

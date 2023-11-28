@@ -1,32 +1,41 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Get all the links and sections
-    const links = document.querySelectorAll('nav a');
-    const sections = document.querySelectorAll('section');
-
-    // Add click event listeners to the links
-    links.forEach(link => {
-        link.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            // Hide all sections
-            sections.forEach(section => {
-                section.classList.add('hidden');
-            });
-
-            // Show the selected section
-            const targetId = this.getAttribute('id').replace('-link', '');
-            const targetSection = document.getElementById(targetId);
-            targetSection.classList.remove('hidden');
-        });
-    });
-});
-
-/*Mobile Nave Menu*/
-document.addEventListener('DOMContentLoaded', function () {
     const menuIcon = document.querySelector('.menu-icon');
     const navMenu = document.querySelector('.nav-menu');
 
-    menuIcon.addEventListener('click', function () {
-        navMenu.classList.toggle('open');
+    menuIcon.addEventListener('click', () => navMenu.classList.toggle('open'));
+});
+
+
+
+/*Mobile Nave Menu*/
+document.addEventListener('DOMContentLoaded', () => {
+    const navContainer = document.querySelector('.nav-container');
+
+    navContainer.addEventListener('click', (event) => {
+        const menuIcon = event.target.closest('.menu-icon');
+        const navMenu = document.querySelector('.nav-menu');
+
+        if (menuIcon) {
+            navMenu.classList.toggle('open');
+        }
+    });
+});
+
+
+
+// Add this JavaScript code for the accordion functionality
+document.addEventListener('DOMContentLoaded', function () {
+    const accordionItems = document.querySelectorAll('.accordion-item button');
+
+    accordionItems.forEach(item => {
+        item.addEventListener('click', function () {
+            const panel = this.nextElementSibling;
+
+            // Toggle active class to expand/collapse accordion item
+            this.parentNode.classList.toggle('active');
+
+            // Toggle display property of the panel
+            panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+        });
     });
 });

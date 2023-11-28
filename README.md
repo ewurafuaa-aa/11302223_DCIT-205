@@ -37,6 +37,16 @@ Building a website involves considering the needs and expectations of the websit
 Developing a website requires planning and organizing content effectively and during this project I learnt how to structure information for the website properly. I also learnt how to organize my code.
 
 With the increasing use of mobile devices, creating a responsive website that adapts to different screen sizes is crucial and I learnt about responsive design techniques, media queries, and mobile-first approaches to ensure that my website looks and functions well across various devices.</p>
+![Screenshot 2023-11-28 at 20-50-39 DCS Courses Algorithms](https://github.com/ewurafuaa-aa/11302223_DCIT-205/assets/150964567/5b7ea323-dcd5-4b76-a172-50ad0928ad7f)
+![Screenshot 2023-11-28 at 20-50-57 DCS Graduates Programme](https://github.com/ewurafuaa-aa/11302223_DCIT-205/assets/150964567/03656fe1-0219-4b95-a889-b19a0961ec46)
+![Screenshot 2023-11-28 at 20-51-21 DCS Undergraduates Programme](https://github.com/ewurafuaa-aa/11302223_DCIT-205/assets/150964567/2a0cc8c3-2ed7-4786-81a3-cd572bf43871)
+![Screenshot 2023-11-28 at 20-47-43 DCS Admissions](https://github.com/ewurafuaa-aa/11302223_DCIT-205/assets/150964567/a3c2f679-6b76-472d-8362-16c087f75268)
+![Screenshot 2023-11-28 at 20-50-05 Courses Web Dev](https://github.com/ewurafuaa-aa/11302223_DCIT-205/assets/150964567/89f8b511-4827-440a-a57d-b504f09ab589)
+![Screenshot 2023-11-28 at 20-49-21 DCS Faculty Member Profile](https://github.com/ewurafuaa-aa/11302223_DCIT-205/assets/150964567/bfe22bfa-3a86-4daa-963a-6d089843e344)
+![Screenshot 2023-11-28 at 20-50-19 DCS Courses Cyber Security](https://github.com/ewurafuaa-aa/11302223_DCIT-205/assets/150964567/c9395934-7fff-46d3-9497-09a89ada5118)
+![Screenshot 2023-11-28 at 20-46-42 DCS Our Faculty](https://github.com/ewurafuaa-aa/11302223_DCIT-205/assets/150964567/7870c790-ee3f-4a90-9d73-856e8f3f77d1)
+![Screenshot 2023-11-28 at 20-45-44 DCS About Us](https://github.com/ewurafuaa-aa/11302223_DCIT-205/assets/150964567/d351786a-6ca4-483c-9a94-ed5d553b8fd0)
+![Screenshot 2023-11-28 at 20-43-40 UG Department Of Computer Science](https://github.com/ewurafuaa-aa/11302223_DCIT-205/assets/150964567/f7cccca1-fe56-44d2-a6a3-0e9f1ce29940)
 
 
 

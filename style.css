@@ -81,6 +81,23 @@ header h1 {
     color: #fff;
 }
 
+.nav-menu ul.submenu {
+    display: none;
+    position: absolute;
+    background-color: #1b2c57;
+    padding: 10px;
+    z-index: 1;
+}
+
+.nav-menu ul.submenu li {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.has-submenu:hover .submenu {
+    display: block;
+}
+
 
 
 @media (max-width: 768px) {
@@ -655,6 +672,91 @@ footer {
     }
 }
 
+/* Academics Page Content Card */
+.acad-content-card {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.acad-content-card img {
+    width: 50%;
+    max-height: 550px; /* Adjust the maximum height as needed */
+    object-fit: cover;
+}
+
+.acad-content-card-text {
+    flex: 1;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+}
+
+.acad-content-card-text h2 {
+    margin-bottom: 10px;
+}
+
+.acad-content-card-text p {
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+/**/
+
+.acad-content-card-2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.acad-content-card-2 img {
+    width: 50%;
+    max-height: 550px; /* Adjust the maximum height as needed */
+    object-fit: cover;
+}
+
+.acad-content-card-2-text {
+    flex: 1;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+}
+
+.acad-content-card-2-text h2 {
+    margin-bottom: 10px;
+}
+
+.acad-content-card-2-text p {
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+/**/
+
+@media (max-width: 768px) {
+    .acad-content-card {
+        flex-direction: column;
+    }
+
+    .acad-content-card img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .acad-content-card-2 {
+        flex-direction: column-reverse;
+    }
+
+    .acad-content-card-2 img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+}
+
 /* Faculty Page */
 .faculty-member {
     margin-bottom: 20px;
@@ -697,6 +799,21 @@ footer {
         border-radius: 8px;
     }
 }
+
+@media (max-width: 768px) {
+    .faculty-details {
+        width: 100% !important;
+        padding: 0 20px;
+      }
+}
+
+@media (max-width: 768px) {
+    .faculty-profile img {
+        width: 100% !important;
+        margin-bottom: 20px;
+      }
+}
+
 
 /* Faculty Page Ends */
 
